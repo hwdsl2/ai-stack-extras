@@ -1,10 +1,10 @@
 {
   "by_accel": {
-    "cpu": 11,
+    "cpu": 14,
     "cuda": 8
   },
   "by_arch": {
-    "amd64": 14,
+    "amd64": 17,
     "arm64": 2,
     "other": 3
   },
@@ -16,9 +16,9 @@
     "chat-only": 4,
     "chat-ui": 0,
     "code-assistant": 2,
-    "full": 8,
+    "full": 10,
     "rag-pipeline": 0,
-    "rag-pipeline-full": 0,
+    "rag-pipeline-full": 1,
     "voice-chat": 0,
     "voice-pipeline": 0
   },
@@ -47,7 +47,7 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 1,
     "usage-v1-deploy-code-assistant-cuda-arm64": 0,
     "usage-v1-deploy-code-assistant-cuda-other": 0,
-    "usage-v1-deploy-full-cpu-amd64": 5,
+    "usage-v1-deploy-full-cpu-amd64": 7,
     "usage-v1-deploy-full-cpu-arm64": 0,
     "usage-v1-deploy-full-cpu-other": 0,
     "usage-v1-deploy-full-cuda-amd64": 2,
@@ -59,7 +59,7 @@
     "usage-v1-deploy-rag-pipeline-cuda-amd64": 0,
     "usage-v1-deploy-rag-pipeline-cuda-arm64": 0,
     "usage-v1-deploy-rag-pipeline-cuda-other": 0,
-    "usage-v1-deploy-rag-pipeline-full-cpu-amd64": 0,
+    "usage-v1-deploy-rag-pipeline-full-cpu-amd64": 1,
     "usage-v1-deploy-rag-pipeline-full-cpu-arm64": 0,
     "usage-v1-deploy-rag-pipeline-full-cpu-other": 0,
     "usage-v1-deploy-rag-pipeline-full-cuda-amd64": 0,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 0,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 0
   },
-  "generated_at": "2026-06-29T07:04:03Z",
+  "generated_at": "2026-06-29T12:42:17Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 19,
-    "deploy": 17,
+    "all": 22,
+    "deploy": 20,
     "features": 0,
-    "main": 19,
+    "main": 22,
     "upgrade": 2
   }
 }
