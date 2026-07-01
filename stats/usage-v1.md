@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-07-01T11:33:13Z`
+Last updated: `2026-07-01T16:39:45Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,10 +8,10 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 31 |
-| main | 31 |
-| features | 0 |
-| deploy | 27 |
+| all | 33 |
+| main | 32 |
+| features | 1 |
+| deploy | 28 |
 | upgrade | 4 |
 
 ## By Variant
@@ -22,7 +22,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | chat-only | 4 |
 | chat-ui | 0 |
 | code-assistant | 2 |
-| full | 18 |
+| full | 20 |
 | rag-pipeline | 0 |
 | rag-pipeline-full | 1 |
 | voice-chat | 0 |
@@ -33,13 +33,13 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | Name | Count |
 |---|---:|
 | cpu | 18 |
-| cuda | 13 |
+| cuda | 15 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 25 |
+| amd64 | 27 |
 | arm64 | 3 |
 | other | 3 |
 
@@ -47,7 +47,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| proxy-caddy | 0 |
+| proxy-caddy | 1 |
 
 ## Raw Counters
 
@@ -56,7 +56,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-full-cpu-amd64` | 10 |
 | `usage-v1-deploy-full-cpu-arm64` | 0 |
 | `usage-v1-deploy-full-cpu-other` | 0 |
-| `usage-v1-deploy-full-cuda-amd64` | 5 |
+| `usage-v1-deploy-full-cuda-amd64` | 6 |
 | `usage-v1-deploy-full-cuda-arm64` | 0 |
 | `usage-v1-deploy-full-cuda-other` | 0 |
 | `usage-v1-deploy-chat-ui-cpu-amd64` | 0 |
@@ -164,7 +164,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-feature-proxy-caddy-full-cpu-amd64` | 0 |
 | `usage-v1-feature-proxy-caddy-full-cpu-arm64` | 0 |
 | `usage-v1-feature-proxy-caddy-full-cpu-other` | 0 |
-| `usage-v1-feature-proxy-caddy-full-cuda-amd64` | 0 |
+| `usage-v1-feature-proxy-caddy-full-cuda-amd64` | 1 |
 | `usage-v1-feature-proxy-caddy-full-cuda-arm64` | 0 |
 | `usage-v1-feature-proxy-caddy-full-cuda-other` | 0 |
 | `usage-v1-feature-proxy-caddy-chat-ui-cpu-amd64` | 0 |
