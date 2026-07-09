@@ -20,7 +20,9 @@ jobs:
           persist-credentials: false
       - name: Check manifest
         working-directory: ai-stack-extras
-        run: scripts/check_usage_manifest.sh
+        run: |
+          scripts/check_usage_manifest.sh
+          scripts/check_cu_manifest.sh
 
   update:
     runs-on: ubuntu-latest
@@ -30,17 +32,20 @@ jobs:
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
       - name: Update stats
-        run: python3 scripts/update_usage_stats.py
+        run: |
+          python3 scripts/update_usage_stats.py
+          python3 scripts/update_cu_stats.py
         env:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Commit changes
         run: |
-          if git diff --quiet -- stats/usage-v1.json stats/usage-v1.md stats/usage-v1-history.tsv; then
+          paths="stats/usage-v1.json stats/usage-v1.md stats/usage-v1-history.tsv stats/cu-v1.json stats/cu-v1.md stats/cu-v1-history.tsv"
+          if [ -z "$(git status --porcelain -- $paths)" ]; then
             echo "No usage count changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats/usage-v1.json stats/usage-v1.md stats/usage-v1-history.tsv
+          git add $paths
           git commit -m "Update usage stats"
           git push
