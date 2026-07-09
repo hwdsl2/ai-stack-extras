@@ -1,6 +1,6 @@
 # Component Usage Counts
 
-Last updated: `2026-07-09T16:29:39Z`
+Last updated: `2026-07-09T16:40:36Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime hardware use.
@@ -9,35 +9,35 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 
 | Metric | Count |
 |---|---:|
-| all | 128 |
-| deploy | 88 |
+| all | 134 |
+| deploy | 94 |
 | upgrade | 40 |
 
 ## By Component
 
 | Name | Count |
 |---|---:|
-| docling | 9 |
+| docling | 10 |
 | embeddings | 7 |
-| kokoro | 14 |
-| litellm | 16 |
-| mcp | 8 |
-| ollama | 8 |
-| whisper | 50 |
+| kokoro | 15 |
+| litellm | 17 |
+| mcp | 9 |
+| ollama | 9 |
+| whisper | 51 |
 | whisperlive | 16 |
 
 ## By Image Variant
 
 | Name | Count |
 |---|---:|
-| cpu | 104 |
+| cpu | 110 |
 | cuda | 24 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 120 |
+| amd64 | 126 |
 | arm64 | 8 |
 | other | 0 |
 
@@ -45,7 +45,7 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 
 | Asset | Count |
 |---|---:|
-| `cu-v1-whisper-deploy-cpu-amd64` | 19 |
+| `cu-v1-whisper-deploy-cpu-amd64` | 20 |
 | `cu-v1-whisper-deploy-cpu-arm64` | 0 |
 | `cu-v1-whisper-deploy-cpu-other` | 0 |
 | `cu-v1-whisper-deploy-cuda-amd64` | 11 |
@@ -57,7 +57,7 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 | `cu-v1-whisper-upgrade-cuda-amd64` | 6 |
 | `cu-v1-whisper-upgrade-cuda-arm64` | 0 |
 | `cu-v1-whisper-upgrade-cuda-other` | 0 |
-| `cu-v1-kokoro-deploy-cpu-amd64` | 8 |
+| `cu-v1-kokoro-deploy-cpu-amd64` | 9 |
 | `cu-v1-kokoro-deploy-cpu-arm64` | 0 |
 | `cu-v1-kokoro-deploy-cpu-other` | 0 |
 | `cu-v1-kokoro-deploy-cuda-amd64` | 2 |
@@ -69,7 +69,7 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 | `cu-v1-kokoro-upgrade-cuda-amd64` | 0 |
 | `cu-v1-kokoro-upgrade-cuda-arm64` | 0 |
 | `cu-v1-kokoro-upgrade-cuda-other` | 0 |
-| `cu-v1-docling-deploy-cpu-amd64` | 8 |
+| `cu-v1-docling-deploy-cpu-amd64` | 9 |
 | `cu-v1-docling-deploy-cpu-arm64` | 0 |
 | `cu-v1-docling-deploy-cpu-other` | 0 |
 | `cu-v1-docling-deploy-cuda-amd64` | 0 |
@@ -81,7 +81,7 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 | `cu-v1-docling-upgrade-cuda-amd64` | 0 |
 | `cu-v1-docling-upgrade-cuda-arm64` | 0 |
 | `cu-v1-docling-upgrade-cuda-other` | 0 |
-| `cu-v1-mcp-deploy-cpu-amd64` | 3 |
+| `cu-v1-mcp-deploy-cpu-amd64` | 4 |
 | `cu-v1-mcp-deploy-cpu-arm64` | 0 |
 | `cu-v1-mcp-deploy-cpu-other` | 0 |
 | `cu-v1-mcp-upgrade-cpu-amd64` | 0 |
@@ -93,13 +93,13 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 | `cu-v1-embeddings-upgrade-cpu-amd64` | 1 |
 | `cu-v1-embeddings-upgrade-cpu-arm64` | 0 |
 | `cu-v1-embeddings-upgrade-cpu-other` | 0 |
-| `cu-v1-litellm-deploy-cpu-amd64` | 13 |
+| `cu-v1-litellm-deploy-cpu-amd64` | 14 |
 | `cu-v1-litellm-deploy-cpu-arm64` | 1 |
 | `cu-v1-litellm-deploy-cpu-other` | 0 |
 | `cu-v1-litellm-upgrade-cpu-amd64` | 2 |
 | `cu-v1-litellm-upgrade-cpu-arm64` | 0 |
 | `cu-v1-litellm-upgrade-cpu-other` | 0 |
-| `cu-v1-ollama-deploy-cpu-amd64` | 7 |
+| `cu-v1-ollama-deploy-cpu-amd64` | 8 |
 | `cu-v1-ollama-deploy-cpu-arm64` | 0 |
 | `cu-v1-ollama-deploy-cpu-other` | 0 |
 | `cu-v1-ollama-deploy-cuda-amd64` | 0 |
