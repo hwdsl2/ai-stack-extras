@@ -18,6 +18,10 @@
     "cpu": 159,
     "cuda": 30
   },
+  "by_image_variant_cuda_capable": {
+    "cpu": 77,
+    "cuda": 24
+  },
   "counts": {
     "cu-v1-docling-deploy-cpu-amd64": 10,
     "cu-v1-docling-deploy-cpu-arm64": 0,

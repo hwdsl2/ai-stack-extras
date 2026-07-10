@@ -4,6 +4,7 @@ Last updated: `2026-07-09T21:43:48Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime hardware use.
+The CUDA-capable image variant table excludes CPU-only components: embeddings, litellm, and mcp.
 
 ## Totals
 
@@ -32,6 +33,13 @@ The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime har
 |---|---:|
 | cpu | 159 |
 | cuda | 30 |
+
+## By Image Variant (CUDA-Capable Components Only)
+
+| Name | Count |
+|---|---:|
+| cpu | 77 |
+| cuda | 24 |
 
 ## By Architecture
 

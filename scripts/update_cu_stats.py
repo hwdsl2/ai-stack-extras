@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OWNER = "hwdsl2"
 DEFAULT_REPO = "ai-stack-extras"
 DEFAULT_TAG = "v1.0.0"
+CUDA_CAPABLE_COMPONENTS = {"docling", "kokoro", "ollama", "whisper", "whisperlive"}
 
 
 def read_manifest(path: Path) -> list[str]:
@@ -91,6 +92,7 @@ def aggregate(counts: dict[str, int]) -> dict:
     }
     by_component: dict[str, int] = {}
     by_image_variant: dict[str, int] = {}
+    by_image_variant_cuda_capable: dict[str, int] = {}
     by_arch: dict[str, int] = {}
 
     for name, value in counts.items():
@@ -105,11 +107,15 @@ def aggregate(counts: dict[str, int]) -> dict:
         ):
             label = parsed[key]
             target[label] = target.get(label, 0) + value
+        if parsed["component"] in CUDA_CAPABLE_COMPONENTS:
+            label = parsed["image_variant"]
+            by_image_variant_cuda_capable[label] = by_image_variant_cuda_capable.get(label, 0) + value
 
     return {
         "totals": totals,
         "by_component": dict(sorted(by_component.items())),
         "by_image_variant": dict(sorted(by_image_variant.items())),
+        "by_image_variant_cuda_capable": dict(sorted(by_image_variant_cuda_capable.items())),
         "by_arch": dict(sorted(by_arch.items())),
     }
 
@@ -122,6 +128,7 @@ def render_markdown(generated_at: str, counts: dict[str, int], summary: dict) ->
         "",
         "Counts are approximate GitHub release asset download counts, not unique users or active installs.",
         "The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime hardware use.",
+        "The CUDA-capable image variant table excludes CPU-only components: embeddings, litellm, and mcp.",
         "",
         "## Totals",
         "",
@@ -133,6 +140,7 @@ def render_markdown(generated_at: str, counts: dict[str, int], summary: dict) ->
     for title, data_key in (
         ("By Component", "by_component"),
         ("By Image Variant", "by_image_variant"),
+        ("By Image Variant (CUDA-Capable Components Only)", "by_image_variant_cuda_capable"),
         ("By Architecture", "by_arch"),
     ):
         lines.extend(["", f"## {title}", "", "| Name | Count |", "|---|---:|"])
@@ -209,8 +217,9 @@ def main() -> int:
     old_json = json.loads(json_path.read_text()) if json_path.exists() and json_path.read_text().strip() else None
     old_counts = old_json.get("counts") if isinstance(old_json, dict) else None
     changed_counts = old_counts != counts
+    changed_summary = not isinstance(old_json, dict) or any(old_json.get(key) != value for key, value in summary.items())
 
-    if changed_counts:
+    if changed_counts or changed_summary:
         json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
         md_path.write_text(render_markdown(generated_at, counts, summary))
         maybe_append_history(history_path, manifest, generated_at, counts)
