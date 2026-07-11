@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Commit changes
         run: |
-          paths="stats/usage-v1.json stats/usage-v1.md stats/usage-v1-history.tsv stats/cu-v1.json stats/cu-v1.md stats/cu-v1-history.tsv"
+          paths="stats/usage-v1.json stats/usage-v1.md stats/cu-v1.json stats/cu-v1.md"
           if [ -z "$(git status --porcelain -- $paths)" ]; then
             echo "No usage count changes."
             exit 0

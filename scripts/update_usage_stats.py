@@ -157,26 +157,6 @@ def render_markdown(generated_at: str, counts: dict[str, int], summary: dict) ->
     return "\n".join(lines) + "\n"
 
 
-def maybe_append_history(path: Path, manifest: list[str], timestamp: str, counts: dict[str, int]) -> bool:
-    current_values = [str(counts[name]) for name in manifest]
-    header = ["timestamp", *manifest]
-    if not path.exists() or not path.read_text().strip():
-        path.write_text("\t".join(header) + "\n" + "\t".join([timestamp, *current_values]) + "\n")
-        return True
-
-    lines = path.read_text().splitlines()
-    existing_header = lines[0].split("\t")
-    if existing_header != header:
-        raise SystemExit("History header does not match manifest order.")
-    if lines:
-        last_values = lines[-1].split("\t")[1:]
-        if last_values == current_values:
-            return False
-    with path.open("a", encoding="utf-8") as fp:
-        fp.write("\t".join([timestamp, *current_values]) + "\n")
-    return True
-
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--owner", default=os.environ.get("AI_STACK_EXTRAS_OWNER", DEFAULT_OWNER))
@@ -207,7 +187,6 @@ def main() -> int:
     args.stats_dir.mkdir(parents=True, exist_ok=True)
     json_path = args.stats_dir / "usage-v1.json"
     md_path = args.stats_dir / "usage-v1.md"
-    history_path = args.stats_dir / "usage-v1-history.tsv"
 
     payload = {
         "generated_at": generated_at,
@@ -226,7 +205,6 @@ def main() -> int:
     if changed_counts:
         json_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
         md_path.write_text(render_markdown(generated_at, counts, summary))
-        maybe_append_history(history_path, manifest, generated_at, counts)
         print("Usage stats updated.")
     else:
         print("Usage counts unchanged; no files updated.")
@@ -239,4 +217,3 @@ if __name__ == "__main__":
     except urllib.error.HTTPError as exc:
         print(f"GitHub API error: {exc.code} {exc.reason}", file=sys.stderr)
         raise
-
