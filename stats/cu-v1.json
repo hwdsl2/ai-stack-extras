@@ -1,29 +1,29 @@
 {
   "by_arch": {
-    "amd64": 1012,
-    "arm64": 74,
+    "amd64": 1040,
+    "arm64": 79,
     "other": 0
   },
   "by_component": {
-    "docling": 88,
-    "embeddings": 27,
-    "kokoro": 135,
+    "docling": 89,
+    "embeddings": 28,
+    "kokoro": 143,
     "litellm": 70,
     "mcp": 54,
     "ollama": 39,
-    "whisper": 616,
+    "whisper": 639,
     "whisperlive": 57
   },
   "by_image_variant": {
-    "cpu": 835,
-    "cuda": 251
+    "cpu": 861,
+    "cuda": 258
   },
   "by_image_variant_cuda_capable": {
-    "cpu": 684,
-    "cuda": 251
+    "cpu": 709,
+    "cuda": 258
   },
   "counts": {
-    "cu-v1-docling-deploy-cpu-amd64": 65,
+    "cu-v1-docling-deploy-cpu-amd64": 66,
     "cu-v1-docling-deploy-cpu-arm64": 2,
     "cu-v1-docling-deploy-cpu-other": 0,
     "cu-v1-docling-deploy-cuda-amd64": 10,
@@ -35,19 +35,19 @@
     "cu-v1-docling-upgrade-cuda-amd64": 3,
     "cu-v1-docling-upgrade-cuda-arm64": 0,
     "cu-v1-docling-upgrade-cuda-other": 0,
-    "cu-v1-embeddings-deploy-cpu-amd64": 15,
+    "cu-v1-embeddings-deploy-cpu-amd64": 16,
     "cu-v1-embeddings-deploy-cpu-arm64": 2,
     "cu-v1-embeddings-deploy-cpu-other": 0,
     "cu-v1-embeddings-upgrade-cpu-amd64": 10,
     "cu-v1-embeddings-upgrade-cpu-arm64": 0,
     "cu-v1-embeddings-upgrade-cpu-other": 0,
-    "cu-v1-kokoro-deploy-cpu-amd64": 81,
+    "cu-v1-kokoro-deploy-cpu-amd64": 88,
     "cu-v1-kokoro-deploy-cpu-arm64": 0,
     "cu-v1-kokoro-deploy-cpu-other": 0,
     "cu-v1-kokoro-deploy-cuda-amd64": 16,
     "cu-v1-kokoro-deploy-cuda-arm64": 0,
     "cu-v1-kokoro-deploy-cuda-other": 0,
-    "cu-v1-kokoro-upgrade-cpu-amd64": 30,
+    "cu-v1-kokoro-upgrade-cpu-amd64": 31,
     "cu-v1-kokoro-upgrade-cpu-arm64": 1,
     "cu-v1-kokoro-upgrade-cpu-other": 0,
     "cu-v1-kokoro-upgrade-cuda-amd64": 7,
@@ -77,16 +77,16 @@
     "cu-v1-ollama-upgrade-cuda-amd64": 3,
     "cu-v1-ollama-upgrade-cuda-arm64": 0,
     "cu-v1-ollama-upgrade-cuda-other": 0,
-    "cu-v1-whisper-deploy-cpu-amd64": 258,
-    "cu-v1-whisper-deploy-cpu-arm64": 40,
+    "cu-v1-whisper-deploy-cpu-amd64": 267,
+    "cu-v1-whisper-deploy-cpu-arm64": 45,
     "cu-v1-whisper-deploy-cpu-other": 0,
-    "cu-v1-whisper-deploy-cuda-amd64": 114,
+    "cu-v1-whisper-deploy-cuda-amd64": 118,
     "cu-v1-whisper-deploy-cuda-arm64": 0,
     "cu-v1-whisper-deploy-cuda-other": 0,
-    "cu-v1-whisper-upgrade-cpu-amd64": 114,
+    "cu-v1-whisper-upgrade-cpu-amd64": 116,
     "cu-v1-whisper-upgrade-cpu-arm64": 11,
     "cu-v1-whisper-upgrade-cpu-other": 0,
-    "cu-v1-whisper-upgrade-cuda-amd64": 79,
+    "cu-v1-whisper-upgrade-cuda-amd64": 82,
     "cu-v1-whisper-upgrade-cuda-arm64": 0,
     "cu-v1-whisper-upgrade-cuda-other": 0,
     "cu-v1-whisperlive-deploy-cpu-amd64": 29,
@@ -102,14 +102,14 @@
     "cu-v1-whisperlive-upgrade-cuda-arm64": 0,
     "cu-v1-whisperlive-upgrade-cuda-other": 0
   },
-  "generated_at": "2026-07-15T05:09:52Z",
+  "generated_at": "2026-07-15T10:15:26Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 1086,
-    "deploy": 745,
-    "upgrade": 341
+    "all": 1119,
+    "deploy": 772,
+    "upgrade": 347
   }
 }
