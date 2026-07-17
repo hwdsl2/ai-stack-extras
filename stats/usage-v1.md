@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-07-16T15:46:50Z`
+Last updated: `2026-07-17T05:22:55Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,21 +8,21 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 60 |
-| main | 59 |
+| all | 64 |
+| main | 63 |
 | features | 1 |
-| deploy | 48 |
-| upgrade | 11 |
+| deploy | 50 |
+| upgrade | 13 |
 
 ## By Variant
 
 | Name | Count |
 |---|---:|
 | ai-tools | 6 |
-| chat-only | 5 |
+| chat-only | 6 |
 | chat-ui | 0 |
 | code-assistant | 2 |
-| full | 46 |
+| full | 49 |
 | rag-pipeline | 0 |
 | rag-pipeline-full | 1 |
 | voice-chat | 0 |
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 37 |
-| cuda | 23 |
+| cpu | 39 |
+| cuda | 25 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 51 |
+| amd64 | 55 |
 | arm64 | 6 |
 | other | 3 |
 
@@ -53,7 +53,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Asset | Count |
 |---|---:|
-| `usage-v1-deploy-full-cpu-amd64` | 25 |
+| `usage-v1-deploy-full-cpu-amd64` | 27 |
 | `usage-v1-deploy-full-cpu-arm64` | 2 |
 | `usage-v1-deploy-full-cpu-other` | 0 |
 | `usage-v1-deploy-full-cuda-amd64` | 8 |
@@ -110,7 +110,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-upgrade-full-cpu-amd64` | 1 |
 | `usage-v1-upgrade-full-cpu-arm64` | 0 |
 | `usage-v1-upgrade-full-cpu-other` | 0 |
-| `usage-v1-upgrade-full-cuda-amd64` | 9 |
+| `usage-v1-upgrade-full-cuda-amd64` | 10 |
 | `usage-v1-upgrade-full-cuda-arm64` | 0 |
 | `usage-v1-upgrade-full-cuda-other` | 0 |
 | `usage-v1-upgrade-chat-ui-cpu-amd64` | 0 |
@@ -122,7 +122,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-upgrade-chat-only-cpu-amd64` | 0 |
 | `usage-v1-upgrade-chat-only-cpu-arm64` | 0 |
 | `usage-v1-upgrade-chat-only-cpu-other` | 0 |
-| `usage-v1-upgrade-chat-only-cuda-amd64` | 0 |
+| `usage-v1-upgrade-chat-only-cuda-amd64` | 1 |
 | `usage-v1-upgrade-chat-only-cuda-arm64` | 0 |
 | `usage-v1-upgrade-chat-only-cuda-other` | 0 |
 | `usage-v1-upgrade-rag-pipeline-cpu-amd64` | 0 |
