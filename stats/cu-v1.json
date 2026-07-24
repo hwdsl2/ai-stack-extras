@@ -1,38 +1,38 @@
 {
   "by_arch": {
-    "amd64": 2593,
+    "amd64": 2633,
     "arm64": 267,
     "other": 0
   },
   "by_component": {
-    "docling": 196,
+    "docling": 202,
     "embeddings": 78,
-    "kokoro": 345,
+    "kokoro": 355,
     "litellm": 156,
     "mcp": 147,
     "ollama": 85,
-    "whisper": 1701,
+    "whisper": 1725,
     "whisperlive": 152
   },
   "by_image_variant": {
-    "cpu": 2228,
-    "cuda": 632
+    "cpu": 2256,
+    "cuda": 644
   },
   "by_image_variant_cuda_capable": {
-    "cpu": 1847,
-    "cuda": 632
+    "cpu": 1875,
+    "cuda": 644
   },
   "counts": {
-    "cu-v1-docling-deploy-cpu-amd64": 131,
+    "cu-v1-docling-deploy-cpu-amd64": 134,
     "cu-v1-docling-deploy-cpu-arm64": 19,
     "cu-v1-docling-deploy-cpu-other": 0,
     "cu-v1-docling-deploy-cuda-amd64": 22,
     "cu-v1-docling-deploy-cuda-arm64": 0,
     "cu-v1-docling-deploy-cuda-other": 0,
-    "cu-v1-docling-upgrade-cpu-amd64": 19,
+    "cu-v1-docling-upgrade-cpu-amd64": 21,
     "cu-v1-docling-upgrade-cpu-arm64": 1,
     "cu-v1-docling-upgrade-cpu-other": 0,
-    "cu-v1-docling-upgrade-cuda-amd64": 4,
+    "cu-v1-docling-upgrade-cuda-amd64": 5,
     "cu-v1-docling-upgrade-cuda-arm64": 0,
     "cu-v1-docling-upgrade-cuda-other": 0,
     "cu-v1-embeddings-deploy-cpu-amd64": 50,
@@ -41,13 +41,13 @@
     "cu-v1-embeddings-upgrade-cpu-amd64": 24,
     "cu-v1-embeddings-upgrade-cpu-arm64": 0,
     "cu-v1-embeddings-upgrade-cpu-other": 0,
-    "cu-v1-kokoro-deploy-cpu-amd64": 227,
+    "cu-v1-kokoro-deploy-cpu-amd64": 234,
     "cu-v1-kokoro-deploy-cpu-arm64": 0,
     "cu-v1-kokoro-deploy-cpu-other": 0,
     "cu-v1-kokoro-deploy-cuda-amd64": 43,
     "cu-v1-kokoro-deploy-cuda-arm64": 0,
     "cu-v1-kokoro-deploy-cuda-other": 0,
-    "cu-v1-kokoro-upgrade-cpu-amd64": 57,
+    "cu-v1-kokoro-upgrade-cpu-amd64": 60,
     "cu-v1-kokoro-upgrade-cpu-arm64": 3,
     "cu-v1-kokoro-upgrade-cpu-other": 0,
     "cu-v1-kokoro-upgrade-cuda-amd64": 15,
@@ -77,16 +77,16 @@
     "cu-v1-ollama-upgrade-cuda-amd64": 14,
     "cu-v1-ollama-upgrade-cuda-arm64": 0,
     "cu-v1-ollama-upgrade-cuda-other": 0,
-    "cu-v1-whisper-deploy-cpu-amd64": 859,
+    "cu-v1-whisper-deploy-cpu-amd64": 870,
     "cu-v1-whisper-deploy-cpu-arm64": 145,
     "cu-v1-whisper-deploy-cpu-other": 0,
-    "cu-v1-whisper-deploy-cuda-amd64": 273,
+    "cu-v1-whisper-deploy-cuda-amd64": 283,
     "cu-v1-whisper-deploy-cuda-arm64": 0,
     "cu-v1-whisper-deploy-cuda-other": 0,
-    "cu-v1-whisper-upgrade-cpu-amd64": 207,
+    "cu-v1-whisper-upgrade-cpu-amd64": 209,
     "cu-v1-whisper-upgrade-cpu-arm64": 30,
     "cu-v1-whisper-upgrade-cpu-other": 0,
-    "cu-v1-whisper-upgrade-cuda-amd64": 187,
+    "cu-v1-whisper-upgrade-cuda-amd64": 188,
     "cu-v1-whisper-upgrade-cuda-arm64": 0,
     "cu-v1-whisper-upgrade-cuda-other": 0,
     "cu-v1-whisperlive-deploy-cpu-amd64": 63,
@@ -102,14 +102,14 @@
     "cu-v1-whisperlive-upgrade-cuda-arm64": 0,
     "cu-v1-whisperlive-upgrade-cuda-other": 0
   },
-  "generated_at": "2026-07-23T21:21:21Z",
+  "generated_at": "2026-07-24T05:29:47Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 2860,
-    "deploy": 2128,
-    "upgrade": 732
+    "all": 2900,
+    "deploy": 2159,
+    "upgrade": 741
   }
 }
