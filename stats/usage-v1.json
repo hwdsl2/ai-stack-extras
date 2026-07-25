@@ -1,10 +1,10 @@
 {
   "by_accel": {
-    "cpu": 51,
+    "cpu": 53,
     "cuda": 33
   },
   "by_arch": {
-    "amd64": 74,
+    "amd64": 76,
     "arm64": 7,
     "other": 3
   },
@@ -16,7 +16,7 @@
     "chat-only": 6,
     "chat-ui": 3,
     "code-assistant": 3,
-    "full": 64,
+    "full": 66,
     "rag-pipeline": 0,
     "rag-pipeline-full": 1,
     "voice-chat": 0,
@@ -47,7 +47,7 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 2,
     "usage-v1-deploy-code-assistant-cuda-arm64": 0,
     "usage-v1-deploy-code-assistant-cuda-other": 0,
-    "usage-v1-deploy-full-cpu-amd64": 35,
+    "usage-v1-deploy-full-cpu-amd64": 37,
     "usage-v1-deploy-full-cpu-arm64": 3,
     "usage-v1-deploy-full-cpu-other": 0,
     "usage-v1-deploy-full-cuda-amd64": 10,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 0,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 0
   },
-  "generated_at": "2026-07-23T16:02:25Z",
+  "generated_at": "2026-07-25T05:24:01Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 84,
-    "deploy": 65,
+    "all": 86,
+    "deploy": 67,
     "features": 1,
-    "main": 83,
+    "main": 85,
     "upgrade": 18
   }
 }
