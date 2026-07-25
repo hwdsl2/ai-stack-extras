@@ -1,6 +1,6 @@
 # Component Usage Counts
 
-Last updated: `2026-07-25T09:59:46Z`
+Last updated: `2026-07-25T15:19:12Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime hardware use.
@@ -10,9 +10,9 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 
 | Metric | Count |
 |---|---:|
-| all | 3076 |
-| deploy | 2299 |
-| upgrade | 777 |
+| all | 3124 |
+| deploy | 2339 |
+| upgrade | 785 |
 
 ## By Component
 
@@ -20,32 +20,32 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 |---|---:|
 | docling | 208 |
 | embeddings | 88 |
-| kokoro | 375 |
-| litellm | 168 |
-| mcp | 155 |
-| ollama | 90 |
-| whisper | 1836 |
-| whisperlive | 156 |
+| kokoro | 384 |
+| litellm | 169 |
+| mcp | 160 |
+| ollama | 91 |
+| whisper | 1866 |
+| whisperlive | 158 |
 
 ## By Image Variant
 
 | Name | Count |
 |---|---:|
-| cpu | 2385 |
-| cuda | 691 |
+| cpu | 2408 |
+| cuda | 716 |
 
 ## By Image Variant (CUDA-Capable Components Only)
 
 | Name | Count |
 |---|---:|
-| cpu | 1974 |
-| cuda | 691 |
+| cpu | 1991 |
+| cuda | 716 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 2795 |
+| amd64 | 2843 |
 | arm64 | 281 |
 | other | 0 |
 
@@ -53,25 +53,25 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 
 | Asset | Count |
 |---|---:|
-| `cu-v1-whisper-deploy-cpu-amd64` | 925 |
+| `cu-v1-whisper-deploy-cpu-amd64` | 931 |
 | `cu-v1-whisper-deploy-cpu-arm64` | 155 |
 | `cu-v1-whisper-deploy-cpu-other` | 0 |
-| `cu-v1-whisper-deploy-cuda-amd64` | 309 |
+| `cu-v1-whisper-deploy-cuda-amd64` | 327 |
 | `cu-v1-whisper-deploy-cuda-arm64` | 0 |
 | `cu-v1-whisper-deploy-cuda-other` | 0 |
-| `cu-v1-whisper-upgrade-cpu-amd64` | 220 |
+| `cu-v1-whisper-upgrade-cpu-amd64` | 225 |
 | `cu-v1-whisper-upgrade-cpu-arm64` | 31 |
 | `cu-v1-whisper-upgrade-cpu-other` | 0 |
-| `cu-v1-whisper-upgrade-cuda-amd64` | 196 |
+| `cu-v1-whisper-upgrade-cuda-amd64` | 197 |
 | `cu-v1-whisper-upgrade-cuda-arm64` | 0 |
 | `cu-v1-whisper-upgrade-cuda-other` | 0 |
-| `cu-v1-kokoro-deploy-cpu-amd64` | 239 |
+| `cu-v1-kokoro-deploy-cpu-amd64` | 243 |
 | `cu-v1-kokoro-deploy-cpu-arm64` | 0 |
 | `cu-v1-kokoro-deploy-cpu-other` | 0 |
-| `cu-v1-kokoro-deploy-cuda-amd64` | 53 |
+| `cu-v1-kokoro-deploy-cuda-amd64` | 57 |
 | `cu-v1-kokoro-deploy-cuda-arm64` | 0 |
 | `cu-v1-kokoro-deploy-cuda-other` | 0 |
-| `cu-v1-kokoro-upgrade-cpu-amd64` | 64 |
+| `cu-v1-kokoro-upgrade-cpu-amd64` | 65 |
 | `cu-v1-kokoro-upgrade-cpu-arm64` | 3 |
 | `cu-v1-kokoro-upgrade-cpu-other` | 0 |
 | `cu-v1-kokoro-upgrade-cuda-amd64` | 16 |
@@ -89,7 +89,7 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 | `cu-v1-docling-upgrade-cuda-amd64` | 5 |
 | `cu-v1-docling-upgrade-cuda-arm64` | 0 |
 | `cu-v1-docling-upgrade-cuda-other` | 0 |
-| `cu-v1-mcp-deploy-cpu-amd64` | 79 |
+| `cu-v1-mcp-deploy-cpu-amd64` | 84 |
 | `cu-v1-mcp-deploy-cpu-arm64` | 18 |
 | `cu-v1-mcp-deploy-cpu-other` | 0 |
 | `cu-v1-mcp-upgrade-cpu-amd64` | 52 |
@@ -104,10 +104,10 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 | `cu-v1-litellm-deploy-cpu-amd64` | 89 |
 | `cu-v1-litellm-deploy-cpu-arm64` | 10 |
 | `cu-v1-litellm-deploy-cpu-other` | 0 |
-| `cu-v1-litellm-upgrade-cpu-amd64` | 45 |
+| `cu-v1-litellm-upgrade-cpu-amd64` | 46 |
 | `cu-v1-litellm-upgrade-cpu-arm64` | 24 |
 | `cu-v1-litellm-upgrade-cpu-other` | 0 |
-| `cu-v1-ollama-deploy-cpu-amd64` | 56 |
+| `cu-v1-ollama-deploy-cpu-amd64` | 57 |
 | `cu-v1-ollama-deploy-cpu-arm64` | 4 |
 | `cu-v1-ollama-deploy-cpu-other` | 0 |
 | `cu-v1-ollama-deploy-cuda-amd64` | 5 |
@@ -122,7 +122,7 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 | `cu-v1-whisperlive-deploy-cpu-amd64` | 65 |
 | `cu-v1-whisperlive-deploy-cpu-arm64` | 1 |
 | `cu-v1-whisperlive-deploy-cpu-other` | 0 |
-| `cu-v1-whisperlive-deploy-cuda-amd64` | 50 |
+| `cu-v1-whisperlive-deploy-cuda-amd64` | 52 |
 | `cu-v1-whisperlive-deploy-cuda-arm64` | 0 |
 | `cu-v1-whisperlive-deploy-cuda-other` | 0 |
 | `cu-v1-whisperlive-upgrade-cpu-amd64` | 16 |
