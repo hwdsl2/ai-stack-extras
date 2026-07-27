@@ -1,10 +1,10 @@
 {
   "by_accel": {
-    "cpu": 56,
+    "cpu": 58,
     "cuda": 34
   },
   "by_arch": {
-    "amd64": 80,
+    "amd64": 82,
     "arm64": 7,
     "other": 3
   },
@@ -14,9 +14,9 @@
   "by_variant": {
     "ai-tools": 6,
     "chat-only": 6,
-    "chat-ui": 3,
+    "chat-ui": 4,
     "code-assistant": 3,
-    "full": 70,
+    "full": 71,
     "rag-pipeline": 0,
     "rag-pipeline-full": 1,
     "voice-chat": 0,
@@ -47,7 +47,7 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 2,
     "usage-v1-deploy-code-assistant-cuda-arm64": 0,
     "usage-v1-deploy-code-assistant-cuda-other": 0,
-    "usage-v1-deploy-full-cpu-amd64": 40,
+    "usage-v1-deploy-full-cpu-amd64": 41,
     "usage-v1-deploy-full-cpu-arm64": 3,
     "usage-v1-deploy-full-cpu-other": 0,
     "usage-v1-deploy-full-cuda-amd64": 11,
@@ -107,7 +107,7 @@
     "usage-v1-upgrade-chat-only-cuda-amd64": 1,
     "usage-v1-upgrade-chat-only-cuda-arm64": 0,
     "usage-v1-upgrade-chat-only-cuda-other": 0,
-    "usage-v1-upgrade-chat-ui-cpu-amd64": 0,
+    "usage-v1-upgrade-chat-ui-cpu-amd64": 1,
     "usage-v1-upgrade-chat-ui-cpu-arm64": 0,
     "usage-v1-upgrade-chat-ui-cpu-other": 0,
     "usage-v1-upgrade-chat-ui-cuda-amd64": 1,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 0,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 0
   },
-  "generated_at": "2026-07-26T15:20:48Z",
+  "generated_at": "2026-07-27T16:33:55Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 90,
-    "deploy": 71,
+    "all": 92,
+    "deploy": 72,
     "features": 1,
-    "main": 89,
-    "upgrade": 18
+    "main": 91,
+    "upgrade": 19
   }
 }
