@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-08-05T05:25:20Z`
+Last updated: `2026-08-06T05:27:34Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 111 |
-| main | 110 |
+| all | 113 |
+| main | 112 |
 | features | 1 |
 | deploy | 87 |
-| upgrade | 23 |
+| upgrade | 25 |
 
 ## By Variant
 
@@ -22,9 +22,9 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | chat-only | 6 |
 | chat-ui | 4 |
 | code-assistant | 3 |
-| full | 89 |
+| full | 90 |
 | rag-pipeline | 0 |
-| rag-pipeline-full | 2 |
+| rag-pipeline-full | 3 |
 | voice-chat | 0 |
 | voice-pipeline | 1 |
 
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 73 |
+| cpu | 75 |
 | cuda | 38 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 97 |
+| amd64 | 99 |
 | arm64 | 11 |
 | other | 3 |
 
@@ -107,7 +107,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-voice-chat-cuda-amd64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-arm64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-other` | 0 |
-| `usage-v1-upgrade-full-cpu-amd64` | 1 |
+| `usage-v1-upgrade-full-cpu-amd64` | 2 |
 | `usage-v1-upgrade-full-cpu-arm64` | 0 |
 | `usage-v1-upgrade-full-cpu-other` | 0 |
 | `usage-v1-upgrade-full-cuda-amd64` | 17 |
@@ -131,7 +131,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-upgrade-rag-pipeline-cuda-amd64` | 0 |
 | `usage-v1-upgrade-rag-pipeline-cuda-arm64` | 0 |
 | `usage-v1-upgrade-rag-pipeline-cuda-other` | 0 |
-| `usage-v1-upgrade-rag-pipeline-full-cpu-amd64` | 1 |
+| `usage-v1-upgrade-rag-pipeline-full-cpu-amd64` | 2 |
 | `usage-v1-upgrade-rag-pipeline-full-cpu-arm64` | 0 |
 | `usage-v1-upgrade-rag-pipeline-full-cpu-other` | 0 |
 | `usage-v1-upgrade-rag-pipeline-full-cuda-amd64` | 0 |
