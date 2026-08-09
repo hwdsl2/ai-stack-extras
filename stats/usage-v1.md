@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-08-06T05:27:34Z`
+Last updated: `2026-08-09T03:53:19Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 113 |
-| main | 112 |
+| all | 116 |
+| main | 115 |
 | features | 1 |
-| deploy | 87 |
-| upgrade | 25 |
+| deploy | 89 |
+| upgrade | 26 |
 
 ## By Variant
 
@@ -21,8 +21,8 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | ai-tools | 6 |
 | chat-only | 6 |
 | chat-ui | 4 |
-| code-assistant | 3 |
-| full | 90 |
+| code-assistant | 4 |
+| full | 92 |
 | rag-pipeline | 0 |
 | rag-pipeline-full | 3 |
 | voice-chat | 0 |
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 75 |
-| cuda | 38 |
+| cpu | 76 |
+| cuda | 40 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 99 |
+| amd64 | 102 |
 | arm64 | 11 |
 | other | 3 |
 
@@ -53,10 +53,10 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Asset | Count |
 |---|---:|
-| `usage-v1-deploy-full-cpu-amd64` | 51 |
+| `usage-v1-deploy-full-cpu-amd64` | 52 |
 | `usage-v1-deploy-full-cpu-arm64` | 7 |
 | `usage-v1-deploy-full-cpu-other` | 0 |
-| `usage-v1-deploy-full-cuda-amd64` | 12 |
+| `usage-v1-deploy-full-cuda-amd64` | 13 |
 | `usage-v1-deploy-full-cuda-arm64` | 0 |
 | `usage-v1-deploy-full-cuda-other` | 0 |
 | `usage-v1-deploy-chat-ui-cpu-amd64` | 2 |
@@ -146,7 +146,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-upgrade-code-assistant-cpu-amd64` | 1 |
 | `usage-v1-upgrade-code-assistant-cpu-arm64` | 0 |
 | `usage-v1-upgrade-code-assistant-cpu-other` | 0 |
-| `usage-v1-upgrade-code-assistant-cuda-amd64` | 0 |
+| `usage-v1-upgrade-code-assistant-cuda-amd64` | 1 |
 | `usage-v1-upgrade-code-assistant-cuda-arm64` | 0 |
 | `usage-v1-upgrade-code-assistant-cuda-other` | 0 |
 | `usage-v1-upgrade-voice-pipeline-cpu-amd64` | 0 |

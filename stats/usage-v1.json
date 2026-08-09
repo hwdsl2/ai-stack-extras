@@ -1,10 +1,10 @@
 {
   "by_accel": {
-    "cpu": 75,
-    "cuda": 38
+    "cpu": 76,
+    "cuda": 40
   },
   "by_arch": {
-    "amd64": 99,
+    "amd64": 102,
     "arm64": 11,
     "other": 3
   },
@@ -15,8 +15,8 @@
     "ai-tools": 6,
     "chat-only": 6,
     "chat-ui": 4,
-    "code-assistant": 3,
-    "full": 90,
+    "code-assistant": 4,
+    "full": 92,
     "rag-pipeline": 0,
     "rag-pipeline-full": 3,
     "voice-chat": 0,
@@ -47,10 +47,10 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 2,
     "usage-v1-deploy-code-assistant-cuda-arm64": 0,
     "usage-v1-deploy-code-assistant-cuda-other": 0,
-    "usage-v1-deploy-full-cpu-amd64": 51,
+    "usage-v1-deploy-full-cpu-amd64": 52,
     "usage-v1-deploy-full-cpu-arm64": 7,
     "usage-v1-deploy-full-cpu-other": 0,
-    "usage-v1-deploy-full-cuda-amd64": 12,
+    "usage-v1-deploy-full-cuda-amd64": 13,
     "usage-v1-deploy-full-cuda-arm64": 0,
     "usage-v1-deploy-full-cuda-other": 0,
     "usage-v1-deploy-rag-pipeline-cpu-amd64": 0,
@@ -116,7 +116,7 @@
     "usage-v1-upgrade-code-assistant-cpu-amd64": 1,
     "usage-v1-upgrade-code-assistant-cpu-arm64": 0,
     "usage-v1-upgrade-code-assistant-cpu-other": 0,
-    "usage-v1-upgrade-code-assistant-cuda-amd64": 0,
+    "usage-v1-upgrade-code-assistant-cuda-amd64": 1,
     "usage-v1-upgrade-code-assistant-cuda-arm64": 0,
     "usage-v1-upgrade-code-assistant-cuda-other": 0,
     "usage-v1-upgrade-full-cpu-amd64": 2,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 0,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 0
   },
-  "generated_at": "2026-08-06T05:27:34Z",
+  "generated_at": "2026-08-09T03:53:19Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 113,
-    "deploy": 87,
+    "all": 116,
+    "deploy": 89,
     "features": 1,
-    "main": 112,
-    "upgrade": 25
+    "main": 115,
+    "upgrade": 26
   }
 }
