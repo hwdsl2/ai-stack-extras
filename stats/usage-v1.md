@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-08-19T03:11:24Z`
+Last updated: `2026-08-20T03:10:42Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 155 |
-| main | 154 |
+| all | 160 |
+| main | 159 |
 | features | 1 |
-| deploy | 125 |
-| upgrade | 29 |
+| deploy | 128 |
+| upgrade | 31 |
 
 ## By Variant
 
@@ -22,7 +22,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | chat-only | 6 |
 | chat-ui | 4 |
 | code-assistant | 4 |
-| full | 129 |
+| full | 134 |
 | rag-pipeline | 0 |
 | rag-pipeline-full | 3 |
 | voice-chat | 1 |
@@ -32,15 +32,15 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 97 |
-| cuda | 58 |
+| cpu | 101 |
+| cuda | 59 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 131 |
-| arm64 | 21 |
+| amd64 | 135 |
+| arm64 | 22 |
 | other | 3 |
 
 ## By Feature
@@ -53,10 +53,10 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Asset | Count |
 |---|---:|
-| `usage-v1-deploy-full-cpu-amd64` | 67 |
-| `usage-v1-deploy-full-cpu-arm64` | 10 |
+| `usage-v1-deploy-full-cpu-amd64` | 68 |
+| `usage-v1-deploy-full-cpu-arm64` | 11 |
 | `usage-v1-deploy-full-cpu-other` | 0 |
-| `usage-v1-deploy-full-cuda-amd64` | 22 |
+| `usage-v1-deploy-full-cuda-amd64` | 23 |
 | `usage-v1-deploy-full-cuda-arm64` | 7 |
 | `usage-v1-deploy-full-cuda-other` | 0 |
 | `usage-v1-deploy-chat-ui-cpu-amd64` | 2 |
@@ -107,7 +107,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-voice-chat-cuda-amd64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-arm64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-other` | 0 |
-| `usage-v1-upgrade-full-cpu-amd64` | 3 |
+| `usage-v1-upgrade-full-cpu-amd64` | 5 |
 | `usage-v1-upgrade-full-cpu-arm64` | 0 |
 | `usage-v1-upgrade-full-cpu-other` | 0 |
 | `usage-v1-upgrade-full-cuda-amd64` | 19 |
