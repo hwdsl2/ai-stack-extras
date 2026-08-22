@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-08-21T03:16:44Z`
+Last updated: `2026-08-22T03:08:01Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 161 |
-| main | 160 |
+| all | 165 |
+| main | 164 |
 | features | 1 |
-| deploy | 129 |
-| upgrade | 31 |
+| deploy | 132 |
+| upgrade | 32 |
 
 ## By Variant
 
@@ -22,8 +22,8 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | chat-only | 6 |
 | chat-ui | 4 |
 | code-assistant | 4 |
-| full | 134 |
-| rag-pipeline | 0 |
+| full | 137 |
+| rag-pipeline | 1 |
 | rag-pipeline-full | 4 |
 | voice-chat | 1 |
 | voice-pipeline | 2 |
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 102 |
-| cuda | 59 |
+| cpu | 104 |
+| cuda | 61 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 136 |
+| amd64 | 140 |
 | arm64 | 22 |
 | other | 3 |
 
@@ -53,10 +53,10 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Asset | Count |
 |---|---:|
-| `usage-v1-deploy-full-cpu-amd64` | 68 |
+| `usage-v1-deploy-full-cpu-amd64` | 69 |
 | `usage-v1-deploy-full-cpu-arm64` | 11 |
 | `usage-v1-deploy-full-cpu-other` | 0 |
-| `usage-v1-deploy-full-cuda-amd64` | 23 |
+| `usage-v1-deploy-full-cuda-amd64` | 24 |
 | `usage-v1-deploy-full-cuda-arm64` | 7 |
 | `usage-v1-deploy-full-cuda-other` | 0 |
 | `usage-v1-deploy-chat-ui-cpu-amd64` | 2 |
@@ -74,7 +74,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-rag-pipeline-cpu-amd64` | 0 |
 | `usage-v1-deploy-rag-pipeline-cpu-arm64` | 0 |
 | `usage-v1-deploy-rag-pipeline-cpu-other` | 0 |
-| `usage-v1-deploy-rag-pipeline-cuda-amd64` | 0 |
+| `usage-v1-deploy-rag-pipeline-cuda-amd64` | 1 |
 | `usage-v1-deploy-rag-pipeline-cuda-arm64` | 0 |
 | `usage-v1-deploy-rag-pipeline-cuda-other` | 0 |
 | `usage-v1-deploy-rag-pipeline-full-cpu-amd64` | 2 |
@@ -107,7 +107,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-voice-chat-cuda-amd64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-arm64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-other` | 0 |
-| `usage-v1-upgrade-full-cpu-amd64` | 5 |
+| `usage-v1-upgrade-full-cpu-amd64` | 6 |
 | `usage-v1-upgrade-full-cpu-arm64` | 0 |
 | `usage-v1-upgrade-full-cpu-other` | 0 |
 | `usage-v1-upgrade-full-cuda-amd64` | 19 |
