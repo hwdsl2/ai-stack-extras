@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-09-09T07:23:55Z`
+Last updated: `2026-09-11T07:17:50Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 190 |
-| main | 189 |
+| all | 193 |
+| main | 192 |
 | features | 1 |
-| deploy | 149 |
-| upgrade | 40 |
+| deploy | 150 |
+| upgrade | 42 |
 
 ## By Variant
 
@@ -20,9 +20,9 @@ Counts are approximate GitHub release asset download counts, not unique users or
 |---|---:|
 | ai-tools | 6 |
 | chat-only | 6 |
-| chat-ui | 4 |
+| chat-ui | 5 |
 | code-assistant | 4 |
-| full | 162 |
+| full | 164 |
 | rag-pipeline | 1 |
 | rag-pipeline-full | 4 |
 | voice-chat | 1 |
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 118 |
+| cpu | 121 |
 | cuda | 72 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 165 |
+| amd64 | 168 |
 | arm64 | 22 |
 | other | 3 |
 
@@ -59,7 +59,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-full-cuda-amd64` | 30 |
 | `usage-v1-deploy-full-cuda-arm64` | 7 |
 | `usage-v1-deploy-full-cuda-other` | 0 |
-| `usage-v1-deploy-chat-ui-cpu-amd64` | 2 |
+| `usage-v1-deploy-chat-ui-cpu-amd64` | 3 |
 | `usage-v1-deploy-chat-ui-cpu-arm64` | 0 |
 | `usage-v1-deploy-chat-ui-cpu-other` | 0 |
 | `usage-v1-deploy-chat-ui-cuda-amd64` | 0 |
@@ -107,7 +107,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-voice-chat-cuda-amd64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-arm64` | 0 |
 | `usage-v1-deploy-voice-chat-cuda-other` | 0 |
-| `usage-v1-upgrade-full-cpu-amd64` | 9 |
+| `usage-v1-upgrade-full-cpu-amd64` | 11 |
 | `usage-v1-upgrade-full-cpu-arm64` | 0 |
 | `usage-v1-upgrade-full-cpu-other` | 0 |
 | `usage-v1-upgrade-full-cuda-amd64` | 24 |
