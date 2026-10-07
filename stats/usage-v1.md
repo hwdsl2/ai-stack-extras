@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-10-05T09:06:18Z`
+Last updated: `2026-10-07T08:40:40Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 346 |
-| main | 327 |
+| all | 348 |
+| main | 329 |
 | features | 19 |
-| deploy | 223 |
-| upgrade | 104 |
+| deploy | 224 |
+| upgrade | 105 |
 
 ## By Variant
 
@@ -21,8 +21,8 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | ai-tools | 18 |
 | chat-only | 18 |
 | chat-ui | 23 |
-| code-assistant | 21 |
-| full | 202 |
+| code-assistant | 22 |
+| full | 203 |
 | rag-pipeline | 13 |
 | rag-pipeline-full | 16 |
 | voice-chat | 21 |
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 202 |
-| cuda | 144 |
+| cpu | 203 |
+| cuda | 145 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 235 |
+| amd64 | 237 |
 | arm64 | 66 |
 | other | 45 |
 
@@ -53,7 +53,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Asset | Count |
 |---|---:|
-| `usage-v1-deploy-full-cpu-amd64` | 94 |
+| `usage-v1-deploy-full-cpu-amd64` | 95 |
 | `usage-v1-deploy-full-cpu-arm64` | 14 |
 | `usage-v1-deploy-full-cpu-other` | 1 |
 | `usage-v1-deploy-full-cuda-amd64` | 35 |
@@ -146,7 +146,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-upgrade-code-assistant-cpu-amd64` | 3 |
 | `usage-v1-upgrade-code-assistant-cpu-arm64` | 1 |
 | `usage-v1-upgrade-code-assistant-cpu-other` | 1 |
-| `usage-v1-upgrade-code-assistant-cuda-amd64` | 6 |
+| `usage-v1-upgrade-code-assistant-cuda-amd64` | 7 |
 | `usage-v1-upgrade-code-assistant-cuda-arm64` | 1 |
 | `usage-v1-upgrade-code-assistant-cuda-other` | 1 |
 | `usage-v1-upgrade-voice-pipeline-cpu-amd64` | 1 |
