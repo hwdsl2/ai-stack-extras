@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-10-08T08:59:33Z`
+Last updated: `2026-10-10T08:30:38Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,11 +8,11 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 351 |
-| main | 332 |
-| features | 19 |
-| deploy | 226 |
-| upgrade | 106 |
+| all | 359 |
+| main | 339 |
+| features | 20 |
+| deploy | 232 |
+| upgrade | 107 |
 
 ## By Variant
 
@@ -22,7 +22,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | chat-only | 18 |
 | chat-ui | 23 |
 | code-assistant | 22 |
-| full | 206 |
+| full | 214 |
 | rag-pipeline | 13 |
 | rag-pipeline-full | 16 |
 | voice-chat | 21 |
@@ -32,14 +32,14 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| cpu | 205 |
-| cuda | 146 |
+| cpu | 211 |
+| cuda | 148 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 240 |
+| amd64 | 248 |
 | arm64 | 66 |
 | other | 45 |
 
@@ -47,13 +47,13 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Name | Count |
 |---|---:|
-| proxy-caddy | 19 |
+| proxy-caddy | 20 |
 
 ## Raw Counters
 
 | Asset | Count |
 |---|---:|
-| `usage-v1-deploy-full-cpu-amd64` | 97 |
+| `usage-v1-deploy-full-cpu-amd64` | 103 |
 | `usage-v1-deploy-full-cpu-arm64` | 14 |
 | `usage-v1-deploy-full-cpu-other` | 1 |
 | `usage-v1-deploy-full-cuda-amd64` | 35 |
@@ -110,7 +110,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-upgrade-full-cpu-amd64` | 12 |
 | `usage-v1-upgrade-full-cpu-arm64` | 1 |
 | `usage-v1-upgrade-full-cpu-other` | 1 |
-| `usage-v1-upgrade-full-cuda-amd64` | 27 |
+| `usage-v1-upgrade-full-cuda-amd64` | 28 |
 | `usage-v1-upgrade-full-cuda-arm64` | 1 |
 | `usage-v1-upgrade-full-cuda-other` | 1 |
 | `usage-v1-upgrade-chat-ui-cpu-amd64` | 2 |
@@ -164,7 +164,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-feature-proxy-caddy-full-cpu-amd64` | 1 |
 | `usage-v1-feature-proxy-caddy-full-cpu-arm64` | 1 |
 | `usage-v1-feature-proxy-caddy-full-cpu-other` | 1 |
-| `usage-v1-feature-proxy-caddy-full-cuda-amd64` | 2 |
+| `usage-v1-feature-proxy-caddy-full-cuda-amd64` | 3 |
 | `usage-v1-feature-proxy-caddy-full-cuda-arm64` | 1 |
 | `usage-v1-feature-proxy-caddy-full-cuda-other` | 1 |
 | `usage-v1-feature-proxy-caddy-chat-ui-cpu-amd64` | 1 |
