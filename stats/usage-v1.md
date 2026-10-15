@@ -1,6 +1,6 @@
 # Self-Hosted AI Stack Usage Counts
 
-Last updated: `2026-10-14T07:39:31Z`
+Last updated: `2026-10-15T07:27:59Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 
@@ -8,10 +8,10 @@ Counts are approximate GitHub release asset download counts, not unique users or
 
 | Metric | Count |
 |---|---:|
-| all | 363 |
-| main | 343 |
+| all | 364 |
+| main | 344 |
 | features | 20 |
-| deploy | 234 |
+| deploy | 235 |
 | upgrade | 109 |
 
 ## By Variant
@@ -22,7 +22,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | chat-only | 18 |
 | chat-ui | 23 |
 | code-assistant | 23 |
-| full | 217 |
+| full | 218 |
 | rag-pipeline | 13 |
 | rag-pipeline-full | 16 |
 | voice-chat | 21 |
@@ -33,13 +33,13 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | Name | Count |
 |---|---:|
 | cpu | 214 |
-| cuda | 149 |
+| cuda | 150 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 252 |
+| amd64 | 253 |
 | arm64 | 66 |
 | other | 45 |
 
@@ -56,7 +56,7 @@ Counts are approximate GitHub release asset download counts, not unique users or
 | `usage-v1-deploy-full-cpu-amd64` | 105 |
 | `usage-v1-deploy-full-cpu-arm64` | 14 |
 | `usage-v1-deploy-full-cpu-other` | 1 |
-| `usage-v1-deploy-full-cuda-amd64` | 35 |
+| `usage-v1-deploy-full-cuda-amd64` | 36 |
 | `usage-v1-deploy-full-cuda-arm64` | 8 |
 | `usage-v1-deploy-full-cuda-other` | 1 |
 | `usage-v1-deploy-chat-ui-cpu-amd64` | 4 |
