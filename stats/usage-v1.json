@@ -1,10 +1,10 @@
 {
   "by_accel": {
-    "cpu": 235,
-    "cuda": 151
+    "cpu": 239,
+    "cuda": 152
   },
   "by_arch": {
-    "amd64": 275,
+    "amd64": 280,
     "arm64": 66,
     "other": 45
   },
@@ -16,7 +16,7 @@
     "chat-only": 18,
     "chat-ui": 24,
     "code-assistant": 23,
-    "full": 239,
+    "full": 244,
     "rag-pipeline": 13,
     "rag-pipeline-full": 16,
     "voice-chat": 21,
@@ -47,10 +47,10 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 3,
     "usage-v1-deploy-code-assistant-cuda-arm64": 1,
     "usage-v1-deploy-code-assistant-cuda-other": 1,
-    "usage-v1-deploy-full-cpu-amd64": 120,
+    "usage-v1-deploy-full-cpu-amd64": 124,
     "usage-v1-deploy-full-cpu-arm64": 14,
     "usage-v1-deploy-full-cpu-other": 1,
-    "usage-v1-deploy-full-cuda-amd64": 36,
+    "usage-v1-deploy-full-cuda-amd64": 37,
     "usage-v1-deploy-full-cuda-arm64": 8,
     "usage-v1-deploy-full-cuda-other": 1,
     "usage-v1-deploy-rag-pipeline-cpu-amd64": 1,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 1,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 1
   },
-  "generated_at": "2026-10-30T08:40:14Z",
+  "generated_at": "2026-10-31T08:27:17Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 386,
-    "deploy": 251,
+    "all": 391,
+    "deploy": 256,
     "features": 20,
-    "main": 366,
+    "main": 371,
     "upgrade": 115
   }
 }
