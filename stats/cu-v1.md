@@ -1,6 +1,6 @@
 # Component Usage Counts
 
-Last updated: `2026-10-31T08:27:19Z`
+Last updated: `2026-11-01T09:17:34Z`
 
 Counts are approximate GitHub release asset download counts, not unique users or active installs.
 The `cpu`/`cuda` dimension is the Docker image variant, not measured runtime hardware use.
@@ -10,122 +10,122 @@ The CUDA-capable image variant table excludes CPU-only components: embeddings, l
 
 | Metric | Count |
 |---|---:|
-| all | 17084 |
-| deploy | 12697 |
-| upgrade | 4387 |
+| all | 17330 |
+| deploy | 12829 |
+| upgrade | 4501 |
 
 ## By Component
 
 | Name | Count |
 |---|---:|
-| docling | 1396 |
-| embeddings | 435 |
-| kokoro | 2209 |
-| litellm | 435 |
-| mcp | 602 |
-| ollama | 473 |
-| whisper | 10835 |
-| whisperlive | 699 |
+| docling | 1414 |
+| embeddings | 455 |
+| kokoro | 2240 |
+| litellm | 450 |
+| mcp | 614 |
+| ollama | 490 |
+| whisper | 10965 |
+| whisperlive | 702 |
 
 ## By Image Variant
 
 | Name | Count |
 |---|---:|
-| cpu | 13667 |
-| cuda | 3417 |
+| cpu | 13866 |
+| cuda | 3464 |
 
 ## By Image Variant (CUDA-Capable Components Only)
 
 | Name | Count |
 |---|---:|
-| cpu | 12195 |
-| cuda | 3417 |
+| cpu | 12347 |
+| cuda | 3464 |
 
 ## By Architecture
 
 | Name | Count |
 |---|---:|
-| amd64 | 15481 |
-| arm64 | 1577 |
+| amd64 | 15705 |
+| arm64 | 1599 |
 | other | 26 |
 
 ## Raw Counters
 
 | Asset | Count |
 |---|---:|
-| `cu-v1-whisper-deploy-cpu-amd64` | 5781 |
-| `cu-v1-whisper-deploy-cpu-arm64` | 948 |
+| `cu-v1-whisper-deploy-cpu-amd64` | 5809 |
+| `cu-v1-whisper-deploy-cpu-arm64` | 949 |
 | `cu-v1-whisper-deploy-cpu-other` | 1 |
-| `cu-v1-whisper-deploy-cuda-amd64` | 1267 |
+| `cu-v1-whisper-deploy-cuda-amd64` | 1274 |
 | `cu-v1-whisper-deploy-cuda-arm64` | 1 |
 | `cu-v1-whisper-deploy-cuda-other` | 1 |
-| `cu-v1-whisper-upgrade-cpu-amd64` | 1673 |
-| `cu-v1-whisper-upgrade-cpu-arm64` | 236 |
+| `cu-v1-whisper-upgrade-cpu-amd64` | 1734 |
+| `cu-v1-whisper-upgrade-cpu-arm64` | 239 |
 | `cu-v1-whisper-upgrade-cpu-other` | 1 |
-| `cu-v1-whisper-upgrade-cuda-amd64` | 924 |
+| `cu-v1-whisper-upgrade-cuda-amd64` | 954 |
 | `cu-v1-whisper-upgrade-cuda-arm64` | 1 |
 | `cu-v1-whisper-upgrade-cuda-other` | 1 |
-| `cu-v1-kokoro-deploy-cpu-amd64` | 1324 |
-| `cu-v1-kokoro-deploy-cpu-arm64` | 12 |
+| `cu-v1-kokoro-deploy-cpu-amd64` | 1339 |
+| `cu-v1-kokoro-deploy-cpu-arm64` | 18 |
 | `cu-v1-kokoro-deploy-cpu-other` | 1 |
-| `cu-v1-kokoro-deploy-cuda-amd64` | 398 |
+| `cu-v1-kokoro-deploy-cuda-amd64` | 400 |
 | `cu-v1-kokoro-deploy-cuda-arm64` | 1 |
 | `cu-v1-kokoro-deploy-cuda-other` | 1 |
-| `cu-v1-kokoro-upgrade-cpu-amd64` | 343 |
+| `cu-v1-kokoro-upgrade-cpu-amd64` | 349 |
 | `cu-v1-kokoro-upgrade-cpu-arm64` | 12 |
 | `cu-v1-kokoro-upgrade-cpu-other` | 1 |
-| `cu-v1-kokoro-upgrade-cuda-amd64` | 114 |
+| `cu-v1-kokoro-upgrade-cuda-amd64` | 116 |
 | `cu-v1-kokoro-upgrade-cuda-arm64` | 1 |
 | `cu-v1-kokoro-upgrade-cuda-other` | 1 |
-| `cu-v1-docling-deploy-cpu-amd64` | 780 |
+| `cu-v1-docling-deploy-cpu-amd64` | 792 |
 | `cu-v1-docling-deploy-cpu-arm64` | 170 |
 | `cu-v1-docling-deploy-cpu-other` | 1 |
-| `cu-v1-docling-deploy-cuda-amd64` | 157 |
+| `cu-v1-docling-deploy-cuda-amd64` | 159 |
 | `cu-v1-docling-deploy-cuda-arm64` | 1 |
 | `cu-v1-docling-deploy-cuda-other` | 1 |
-| `cu-v1-docling-upgrade-cpu-amd64` | 173 |
+| `cu-v1-docling-upgrade-cpu-amd64` | 177 |
 | `cu-v1-docling-upgrade-cpu-arm64` | 21 |
 | `cu-v1-docling-upgrade-cpu-other` | 1 |
 | `cu-v1-docling-upgrade-cuda-amd64` | 89 |
 | `cu-v1-docling-upgrade-cuda-arm64` | 1 |
 | `cu-v1-docling-upgrade-cuda-other` | 1 |
-| `cu-v1-mcp-deploy-cpu-amd64` | 420 |
+| `cu-v1-mcp-deploy-cpu-amd64` | 431 |
 | `cu-v1-mcp-deploy-cpu-arm64` | 40 |
 | `cu-v1-mcp-deploy-cpu-other` | 1 |
-| `cu-v1-mcp-upgrade-cpu-amd64` | 126 |
+| `cu-v1-mcp-upgrade-cpu-amd64` | 127 |
 | `cu-v1-mcp-upgrade-cpu-arm64` | 14 |
 | `cu-v1-mcp-upgrade-cpu-other` | 1 |
-| `cu-v1-embeddings-deploy-cpu-amd64` | 273 |
-| `cu-v1-embeddings-deploy-cpu-arm64` | 17 |
+| `cu-v1-embeddings-deploy-cpu-amd64` | 282 |
+| `cu-v1-embeddings-deploy-cpu-arm64` | 27 |
 | `cu-v1-embeddings-deploy-cpu-other` | 1 |
-| `cu-v1-embeddings-upgrade-cpu-amd64` | 133 |
+| `cu-v1-embeddings-upgrade-cpu-amd64` | 134 |
 | `cu-v1-embeddings-upgrade-cpu-arm64` | 10 |
 | `cu-v1-embeddings-upgrade-cpu-other` | 1 |
-| `cu-v1-litellm-deploy-cpu-amd64` | 263 |
-| `cu-v1-litellm-deploy-cpu-arm64` | 33 |
+| `cu-v1-litellm-deploy-cpu-amd64` | 276 |
+| `cu-v1-litellm-deploy-cpu-arm64` | 35 |
 | `cu-v1-litellm-deploy-cpu-other` | 1 |
 | `cu-v1-litellm-upgrade-cpu-amd64` | 125 |
 | `cu-v1-litellm-upgrade-cpu-arm64` | 12 |
 | `cu-v1-litellm-upgrade-cpu-other` | 1 |
-| `cu-v1-ollama-deploy-cpu-amd64` | 177 |
+| `cu-v1-ollama-deploy-cpu-amd64` | 188 |
 | `cu-v1-ollama-deploy-cpu-arm64` | 26 |
 | `cu-v1-ollama-deploy-cpu-other` | 1 |
-| `cu-v1-ollama-deploy-cuda-amd64` | 97 |
+| `cu-v1-ollama-deploy-cuda-amd64` | 99 |
 | `cu-v1-ollama-deploy-cuda-arm64` | 1 |
 | `cu-v1-ollama-deploy-cuda-other` | 1 |
-| `cu-v1-ollama-upgrade-cpu-amd64` | 79 |
+| `cu-v1-ollama-upgrade-cpu-amd64` | 81 |
 | `cu-v1-ollama-upgrade-cpu-arm64` | 5 |
 | `cu-v1-ollama-upgrade-cpu-other` | 1 |
-| `cu-v1-ollama-upgrade-cuda-amd64` | 83 |
+| `cu-v1-ollama-upgrade-cuda-amd64` | 85 |
 | `cu-v1-ollama-upgrade-cuda-arm64` | 1 |
 | `cu-v1-ollama-upgrade-cuda-other` | 1 |
-| `cu-v1-whisperlive-deploy-cpu-amd64` | 333 |
+| `cu-v1-whisperlive-deploy-cpu-amd64` | 334 |
 | `cu-v1-whisperlive-deploy-cpu-arm64` | 4 |
 | `cu-v1-whisperlive-deploy-cpu-other` | 1 |
 | `cu-v1-whisperlive-deploy-cuda-amd64` | 159 |
 | `cu-v1-whisperlive-deploy-cuda-arm64` | 1 |
 | `cu-v1-whisperlive-deploy-cuda-other` | 1 |
-| `cu-v1-whisperlive-upgrade-cpu-amd64` | 81 |
+| `cu-v1-whisperlive-upgrade-cpu-amd64` | 83 |
 | `cu-v1-whisperlive-upgrade-cpu-arm64` | 7 |
 | `cu-v1-whisperlive-upgrade-cpu-other` | 1 |
 | `cu-v1-whisperlive-upgrade-cuda-amd64` | 109 |
