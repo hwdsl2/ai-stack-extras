@@ -1,22 +1,22 @@
 {
   "by_accel": {
-    "cpu": 269,
-    "cuda": 157
+    "cpu": 271,
+    "cuda": 158
   },
   "by_arch": {
-    "amd64": 314,
-    "arm64": 67,
+    "amd64": 316,
+    "arm64": 68,
     "other": 45
   },
   "by_feature": {
     "proxy-caddy": 20
   },
   "by_variant": {
-    "ai-tools": 20,
+    "ai-tools": 21,
     "chat-only": 22,
     "chat-ui": 25,
     "code-assistant": 35,
-    "full": 260,
+    "full": 262,
     "rag-pipeline": 13,
     "rag-pipeline-full": 16,
     "voice-chat": 21,
@@ -47,7 +47,7 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 3,
     "usage-v1-deploy-code-assistant-cuda-arm64": 1,
     "usage-v1-deploy-code-assistant-cuda-other": 1,
-    "usage-v1-deploy-full-cpu-amd64": 134,
+    "usage-v1-deploy-full-cpu-amd64": 135,
     "usage-v1-deploy-full-cpu-arm64": 14,
     "usage-v1-deploy-full-cpu-other": 1,
     "usage-v1-deploy-full-cuda-amd64": 40,
@@ -96,7 +96,7 @@
     "usage-v1-feature-proxy-caddy-voice-chat-cuda-arm64": 1,
     "usage-v1-feature-proxy-caddy-voice-chat-cuda-other": 1,
     "usage-v1-upgrade-ai-tools-cpu-amd64": 1,
-    "usage-v1-upgrade-ai-tools-cpu-arm64": 1,
+    "usage-v1-upgrade-ai-tools-cpu-arm64": 2,
     "usage-v1-upgrade-ai-tools-cpu-other": 1,
     "usage-v1-upgrade-ai-tools-cuda-amd64": 1,
     "usage-v1-upgrade-ai-tools-cuda-arm64": 1,
@@ -122,7 +122,7 @@
     "usage-v1-upgrade-full-cpu-amd64": 19,
     "usage-v1-upgrade-full-cpu-arm64": 1,
     "usage-v1-upgrade-full-cpu-other": 1,
-    "usage-v1-upgrade-full-cuda-amd64": 31,
+    "usage-v1-upgrade-full-cuda-amd64": 32,
     "usage-v1-upgrade-full-cuda-arm64": 1,
     "usage-v1-upgrade-full-cuda-other": 1,
     "usage-v1-upgrade-rag-pipeline-cpu-amd64": 1,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 1,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 1
   },
-  "generated_at": "2026-11-03T09:33:49Z",
+  "generated_at": "2026-11-04T09:14:29Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 426,
-    "deploy": 288,
+    "all": 429,
+    "deploy": 289,
     "features": 20,
-    "main": 406,
-    "upgrade": 118
+    "main": 409,
+    "upgrade": 120
   }
 }
