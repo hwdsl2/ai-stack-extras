@@ -1,10 +1,10 @@
 {
   "by_accel": {
-    "cpu": 277,
-    "cuda": 166
+    "cpu": 280,
+    "cuda": 168
   },
   "by_arch": {
-    "amd64": 329,
+    "amd64": 334,
     "arm64": 69,
     "other": 45
   },
@@ -12,24 +12,24 @@
     "proxy-caddy": 20
   },
   "by_variant": {
-    "ai-tools": 21,
-    "chat-only": 23,
+    "ai-tools": 23,
+    "chat-only": 24,
     "chat-ui": 26,
     "code-assistant": 35,
-    "full": 273,
+    "full": 275,
     "rag-pipeline": 13,
     "rag-pipeline-full": 17,
     "voice-chat": 21,
     "voice-pipeline": 14
   },
   "counts": {
-    "usage-v1-deploy-ai-tools-cpu-amd64": 4,
+    "usage-v1-deploy-ai-tools-cpu-amd64": 5,
     "usage-v1-deploy-ai-tools-cpu-arm64": 2,
     "usage-v1-deploy-ai-tools-cpu-other": 2,
-    "usage-v1-deploy-ai-tools-cuda-amd64": 2,
+    "usage-v1-deploy-ai-tools-cuda-amd64": 3,
     "usage-v1-deploy-ai-tools-cuda-arm64": 2,
     "usage-v1-deploy-ai-tools-cuda-other": 2,
-    "usage-v1-deploy-chat-only-cpu-amd64": 6,
+    "usage-v1-deploy-chat-only-cpu-amd64": 7,
     "usage-v1-deploy-chat-only-cpu-arm64": 3,
     "usage-v1-deploy-chat-only-cpu-other": 2,
     "usage-v1-deploy-chat-only-cuda-amd64": 3,
@@ -47,7 +47,7 @@
     "usage-v1-deploy-code-assistant-cuda-amd64": 3,
     "usage-v1-deploy-code-assistant-cuda-arm64": 1,
     "usage-v1-deploy-code-assistant-cuda-other": 1,
-    "usage-v1-deploy-full-cpu-amd64": 139,
+    "usage-v1-deploy-full-cpu-amd64": 140,
     "usage-v1-deploy-full-cpu-arm64": 15,
     "usage-v1-deploy-full-cpu-other": 1,
     "usage-v1-deploy-full-cuda-amd64": 45,
@@ -122,7 +122,7 @@
     "usage-v1-upgrade-full-cpu-amd64": 20,
     "usage-v1-upgrade-full-cpu-arm64": 1,
     "usage-v1-upgrade-full-cpu-other": 1,
-    "usage-v1-upgrade-full-cuda-amd64": 32,
+    "usage-v1-upgrade-full-cuda-amd64": 33,
     "usage-v1-upgrade-full-cuda-arm64": 1,
     "usage-v1-upgrade-full-cuda-other": 1,
     "usage-v1-upgrade-rag-pipeline-cpu-amd64": 1,
@@ -150,16 +150,16 @@
     "usage-v1-upgrade-voice-pipeline-cuda-arm64": 1,
     "usage-v1-upgrade-voice-pipeline-cuda-other": 1
   },
-  "generated_at": "2026-11-13T09:32:52Z",
+  "generated_at": "2026-11-14T08:58:57Z",
   "owner": "hwdsl2",
   "release_id": 345606754,
   "repo": "ai-stack-extras",
   "tag": "v1.0.0",
   "totals": {
-    "all": 443,
-    "deploy": 302,
+    "all": 448,
+    "deploy": 306,
     "features": 20,
-    "main": 423,
-    "upgrade": 121
+    "main": 428,
+    "upgrade": 122
   }
 }
